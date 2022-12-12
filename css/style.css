@@ -224,7 +224,7 @@ input {
    transition: 0.4s ease;
 }
 
-.sub-item a:hover{
+.sub-item a:hover {
    padding-left: 8px;
    color: rgb(247, 241, 241);
    transition: .4s ease;
@@ -710,6 +710,7 @@ input {
 .zoom-wrap .tab-content {
    margin-top: 4rem;
 }
+
 .button-group .nav:last-child li {
    margin-right: 0;
 }
@@ -1181,20 +1182,23 @@ input {
    background: #E80368;
 }
 
-.gallery-content img {
-   border-radius: 6px;
-   box-shadow: 0 0 16px -3px rgba(0, 0, 0, 0.354);
+.box-content .item,
+.gallery-wrap .item {
+   overflow: hidden;
+   border-radius: .25rem;
+   box-shadow: 0 0 12px rgba(0, 0, 0, 0.255);
 }
 
-.gallery-content .box-content:hover {
-   transform: translateY(-6px);
-   transition: .4s ease;
+.gallery-content .box-content:hover,
+.gallery-wrap .item:hover {
+   transform: scale(.95);
+   transition: all .1s ease;
 }
 
-.office-menu a:hover{
+.office-menu a:hover {
    color: #1BBD36;
 }
 
-
-
-
+.vbox-figlio {
+   margin: 0 auto;
+}

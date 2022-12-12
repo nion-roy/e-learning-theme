@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>e-learning</title>
+
+      <!-- Bootstrap 5 CDN Files -->
+      <link rel="stylesheet" href="../../bootstrap 5/css/bootstrap.min.css" />
+      <script src="../../bootstrap 5/js/bootstrap.bundle.min.js"></script>
+
+      <!-- FontAwesome CDN Files -->
+      <script src="https://kit.fontawesome.com/96d390f02d.js" crossorigin="anonymous"></script>
+
+      <!-- venobox gallery -->
+      <link rel="stylesheet" href="../../css/normalize.min.css" />
+      <link rel="stylesheet" href="../../css/venobox.min.css" />
+
+      <!-- Main CSS Files -->
+      <link rel="stylesheet" href="../../css/style.css" />
+   </head>
+   <body>
+      <header>
+         <div class="nav-wrap">
+            <div class="desktop-view" id="sticky-nav">
+               <div class="nav-content">
+                  <div class="logo">
+                     <a href="../index.html"><img src="../../img/logo.png" alt="logo" /></a>
+                  </div>
+                  <div class="menu-bar d-lg-none" id="menuBar"><i class="fa-solid fa-bars"></i></div>
+                  <div class="d-none d-lg-block">
+                     <ul>
+                        <li><a href="../index.html">home</a></li>
+                        <li class="sub-menu">
+                           <a href="javascript:void(0)">about <i class="fa-solid fa-angle-down"></i></a>
+                           <ul class="sub-item">
+                              <li><a href="../index.html">about us</a></li>
+                              <li><a href="../trainer.html">trainer</a></li>
+                              <li class="sub-menu-dropdown">
+                                 <a href="javascript:void(0)">gallery <i class="fa-solid fa-angle-left"></i></a>
+                                 <ul class="sub-item-dropdown">
+                                    <li><a href="recent-gallery.html">recent program</a></li>
+                                    <li><a href="../office.html">office</a></li>
+                                 </ul>
+                              </li>
+                              <li><a href="../testimonial.html">testimonials</a></li>
+                           </ul>
+                        </li>
+                        <li class="sub-menu">
+                           <a href="#">training <i class="fa-solid fa-angle-down"></i></a>
+                           <ul class="sub-item" style="width: 270px">
+                              <li><a href="#">regular course / training</a></li>
+                              <li><a href="#">it training</a></li>
+                              <li><a href="#">polytechnic institute training</a></li>
+                              <li><a href="#">language training</a></li>
+                              <li><a href="#">admission</a></li>
+                           </ul>
+                        </li>
+                        <li class="sub-menu">
+                           <a href="#">career <i class="fa-solid fa-angle-down"></i></a>
+                           <ul class="sub-item" style="width: 240px">
+                              <li><a href="#">job placement</a></li>
+                              <li><a href="#">pol.student job placement</a></li>
+                              <li><a href="#">certification verifications</a></li>
+                              <li><a href="#">success students</a></li>
+                           </ul>
+                        </li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">branch</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="overlay-wrap" id="menu-overlay"></div>
+            <div class="mobile-view d-lg-none" id="openMenu">
+               <div class="nav-content">
+                  <div class="mobile-logo"><img src="../../img/logo.png" alt="" /></div>
+                  <ul>
+                     <li><a href="#">home</a></li>
+                     <li class="sub_menu">
+                        <a href="#">about</a>
+                        <ul>
+                           <li><a href="#">about us</a></li>
+                           <li><a href="#">team management</a></li>
+                           <li><a href="#">trainer</a></li>
+                           <li class="sub_menu">
+                              <a href="#">gallery</a>
+                              <ul>
+                                 <li><a href="#">trainer</a></li>
+                                 <li><a href="#">trainer</a></li>
+                                 <li><a href="#">trainer</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="#">testimonials</a></li>
+                        </ul>
+                     </li>
+                     <li class="sub_menu">
+                        <a href="#">training</a>
+                        <ul>
+                           <li><a href="#">about us</a></li>
+                           <li><a href="#">team management</a></li>
+                           <li><a href="#">trainer</a></li>
+                           <li class="sub_menu">
+                              <a href="#">gallery</a>
+                              <ul>
+                                 <li><a href="#">recent program</a></li>
+                                 <li><a href="#">Kallyanpur office</a></li>
+                                 <li><a href="#">Mirpur office</a></li>
+                              </ul>
+                           </li>
+                           <li><a href="#">testimonials</a></li>
+                        </ul>
+                     </li>
+                     <li class="sub_menu">
+                        <a href="#">career</a>
+                        <ul>
+                           <li><a href="#">about us</a></li>
+                           <li><a href="#">team management</a></li>
+                           <li><a href="#">trainer</a></li>
+                           <li><a href="#">gallery</a></li>
+                           <li><a href="#">testimonials</a></li>
+                        </ul>
+                     </li>
+                     <li><a href="#">contact</a></li>
+                     <li><a href="#">branch</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- END HEADER MENU -->
+
+      <section class="gallery-section pb-5">
+         <div class="title-banner"><h2>Recent Photo Gallery</h2></div>
+         <div class="container-fluid container-xl">
+            <div class="gallery-wrap">
+               <p class="text-center border-bottom pb-3 mt-5" style="font-size: 18px; font-weight: 800; line-height: 37px">দেশের অন্যতম সফলতম তরুন উদ্যোক্তা, বিশিষ্ট শিক্ষানুরাগী ও সমাজসেবী এবং ই-লার্নিং এন্ড আর্নিং লি. এর সম্মানিত ব্যবস্থাপনা পরিচালক (এমডি) জনাব মাসুদ আলম সামাজিক ক্ষেত্রে অনন্যসাধারণ অবদানের স্বীকৃতি সরূপ 'যুব উন্নয়ন এবং কর্মসংস্থান সৃষ্টিতে অসাধারণ অবদান' ক্যাটাগরিতে "শেখ হাসিনা ইয়ুথ ভলান্টিয়ার অ্যাওয়ার্ড-২০২২" পুরস্কারে ভূষিত হয়েছেন।</p>
+               <div class="row">
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="gallery-wrap">
+               <p class="text-center border-top border-bottom py-3 mt-5" style="font-size: 18px; font-weight: 800; line-height: 37px">Managing Director's Program</p>
+               <div class="row">
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="gallery-wrap">
+               <p class="text-center border-top border-bottom py-3 mt-5" style="font-size: 18px; font-weight: 800; line-height: 37px">ই-লার্নিং এন্ড আর্নিং লিমিটেড থেকে কর্পোরেট ব্যাচের Cisco-CCNP Training এর নতুন ব্যাচ শুরু হলো Army - AITSO সেন্টারে । প্রশিক্ষণ চলাকালীন সময় কিছু ছবি।</p>
+               <div class="row">
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="gallery-wrap">
+               <p class="text-center border-top border-bottom py-3 mt-5" style="font-size: 18px; font-weight: 800; line-height: 37px">শেখ হাসিনা জাতীয় যুব উন্নয়ন ইনস্টিটিউট থেকে গ্রাফিক্সের ছাত্র-ছাত্রীরা ইন্ডাস্ট্রিয়াল ভিজিট করেছে "ই-লার্নিং এন্ড আর্নিং লিমিটেড" অফিস।</p>
+               <div class="row">
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-sm-6 mt-4">
+                     <a href="../../img/gallery/award/award-2022.jpg" class="item shadow" data-gall="gallery">
+                        <img src="../../img/gallery/award/award-2022.jpg" alt="" />
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- END GALLERY SECTION -->
+
+      <footer class="footer-section mt-5">
+         <div class="container-fluid container-xl">
+            <div class="footer-shape shape-left"><img src="../img/shape-7.png" alt="" /></div>
+            <div class="footer-shape shape-right"><img src="../img/shape-7.png" alt="" /></div>
+            <div class="footer-wrap">
+               <div class="row">
+                  <div class="col-md-6 col-lg-4">
+                     <ul class="about-info">
+                        <li class="footer-title">contact us</li>
+                        <li><i class="fa-solid fa-phone"></i> telephone:</li>
+                        <li>+88 02-58054685</li>
+                        <li>+88 02-8091188</li>
+                        <li class="mt-1"><i class="fa-solid fa-phone"></i> hotline:</li>
+                        <li>01550666800</li>
+                        <li>01550666900</li>
+                        <li class="mt-1"><i class="fa-solid fa-envelope"></i> email: info@e-laeltd.com</li>
+                        <li class="mt-1"><i class="fa-solid fa-location-dot"></i> Head Office :</li>
+                        <p>House # 1029,Road #09 | Avenue # 9A, Mirpur DOHS,Mirpur-12, Dhaka-1216</p>
+                        <li class="mt-1"><i class="fa-solid fa-location-dot"></i> Corporate Office :</li>
+                        <p>Khaja Super Market, 2nd to 7th Floor, Kallyanpur Bus Stop, Mirpur Road, Dhaka-1207.</p>
+                        <li class="mt-1"><i class="fa-solid fa-location-dot"></i> UK Office :</li>
+                        <p class="m-0">3 PITSEA STREET E1 0JH London</p>
+                     </ul>
+                  </div>
+                  <div class="col-md-6 col-lg-2 mt-5 mt-md-0">
+                     <ul>
+                        <li class="footer-title">useful links</li>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">admission</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">site map</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6 col-lg-3 mt-5 mt-lg-0">
+                     <ul>
+                        <li class="footer-title">our course</li>
+                        <li><a href="#">basic course</a></li>
+                        <li><a href="#">software development</a></li>
+                        <li><a href="#">hardware</a></li>
+                        <li><a href="#">database admission</a></li>
+                        <li><a href="#">server & network administration</a></li>
+                        <li><a href="#">site map</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6 col-lg-3 mt-5 mt-lg-0">
+                     <div class="footer-logo"><img src="../img/about/about-home.jpg" alt="" /></div>
+                     <div class="mt-4 text-center text-md-start">
+                        <label class="form-label">More information:</label>
+                        <div class="input-group">
+                           <input type="email" class="form-control" placeholder="type your email" />
+                           <span class="btn">submit</span>
+                        </div>
+                     </div>
+                     <div class="social-link">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="footer-end">e-learning & earning ltd © 2022 All Rights Reserved. Designed by <a href="https://www.facebook.com/nion.roy22" target="_blank">Nion Roy.</a></div>
+         </div>
+      </footer>
+
+      <script src="../../js/jquery-3.6.0.min.js"></script>
+      <script src="../../js/venobox.min.js"></script>
+      <script src="../../js/scriptFile.js"></script>
+      <script>
+         $(document).ready(function () {
+            $(".item").venobox();
+         });
+      </script>
+   </body>
+</html>

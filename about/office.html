@@ -13,9 +13,9 @@
       <!-- FontAwesome CDN Files -->
       <script src="https://kit.fontawesome.com/96d390f02d.js" crossorigin="anonymous"></script>
 
-      <!-- AOS Animation Files -->
-      <link rel="stylesheet" href="../aos/aos.css" />
-      <script src="../aos/aos.js"></script>
+      <!-- venobox gallery -->
+      <link rel="stylesheet" href="../../css/normalize.min.css" />
+      <link rel="stylesheet" href="../../css/venobox.min.css" />
 
       <!-- Main CSS Files -->
       <link rel="stylesheet" href="../css/style.css" />
@@ -33,15 +33,15 @@
                      <ul>
                         <li><a href="../index.html">home</a></li>
                         <li class="sub-menu">
-                           <a href="../about/index.html">about <i class="fa-solid fa-angle-down"></i></a>
+                           <a href="javascript:void(0)">about <i class="fa-solid fa-angle-down"></i></a>
                            <ul class="sub-item">
                               <li><a href="../about/index.html">about us</a></li>
                               <li><a href="../about/trainer.html">trainer</a></li>
                               <li class="sub-menu-dropdown">
                                  <a href="javascript:void(0)">gallery <i class="fa-solid fa-angle-left"></i></a>
                                  <ul class="sub-item-dropdown">
-                                    <li><a href="../about/recent-gallery.html">recent program</a></li>
-                                    <li><a href="#">office</a></li>
+                                    <li><a href="../about/gallery/recent-gallery.html">recent program</a></li>
+                                    <li><a href="../about/office.html">office</a></li>
                                  </ul>
                               </li>
                               <li><a href="../about/testimonial.html">testimonials</a></li>
@@ -134,33 +134,69 @@
       <section class="office-section">
          <div class="title-banner about-title"><h2>Office Campus -- e-Learning and Earning Ltd</h2></div>
          <div class="container-fluid container-xl">
-            <div class="office-wrap" style="padding-top: 4rem;">
+            <div class="office-wrap" style="padding-top: 4rem">
                <div class="office-menu button-group mt-5">
                   <ul class="nav nav-pills justify-content-center align-items-center">
-                     <li data-aos="zoom-in" class="nav-item"><a data-filter="*" class="nav-link active" href="javascript:void(0)" data-bs-toggle="tab">all photos</a></li>
-                     <li data-aos="zoom-in" class="nav-item"><a data-filter=".kallyanpur" class="nav-link" href="javascript:void(0)" data-bs-toggle="tab">kallyanpur</a></li>
-                     <li data-aos="zoom-in" class="nav-item"><a data-filter=".mirpur" class="nav-link" href="javascript:void(0)" data-bs-toggle="tab">mirpur</a></li>
+                     <li class="nav-item"><a data-filter="all" class="nav-link active" href="javascript:void(0)" data-bs-toggle="tab">all photos</a></li>
+                     <li class="nav-item"><a data-filter=".kallyanpur" class="nav-link" href="javascript:void(0)" data-bs-toggle="tab">kallyanpur</a></li>
+                     <li class="nav-item"><a data-filter=".mirpur" class="nav-link" href="javascript:void(0)" data-bs-toggle="tab">mirpur</a></li>
                   </ul>
                </div>
                <div class="row office-content gallery-content my-5">
-                  <div class="box-content kallyanpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content kallyanpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content mirpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content mirpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content kallyanpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content mirpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content kallyanpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content kallyanpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content mirpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content mirpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content kallyanpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content mirpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content kallyanpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content kallyanpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content mirpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content mirpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content kallyanpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
-                  <div class="box-content mirpur col-md-6 col-lg-4 mt-4"><img src="../img/gallery/award/award-2022.jpg" alt="" /></div>
+                  <div class="box-content mix kallyanpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix kallyanpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix kallyanpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix kallyanpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix kallyanpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix kallyanpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix kallyanpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix kallyanpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
+                  <div class="box-content mix mirpur col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                     <a href="../img/gallery/award/award-2022.jpg" class="item" data-gall="gallery"><img src="../img/gallery/award/award-2022.jpg" alt="" /></a>
+                  </div>
                </div>
             </div>
          </div>
@@ -172,7 +208,7 @@
          <div class="container-fluid container-xl">
             <div class="footer-shape shape-left"><img src="../img/shape-7.png" alt="" /></div>
             <div class="footer-shape shape-right"><img src="../img/shape-7.png" alt="" /></div>
-            <div data-aos="fade-up" class="footer-wrap">
+            <div class="footer-wrap">
                <div class="row">
                   <div class="col-md-6 col-lg-4">
                      <ul class="about-info">
@@ -237,26 +273,19 @@
       </footer>
 
       <script src="../js/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
-
+      <script src="../js/mixitup.min.js"></script>
+      <script src="../js/venobox.min.js"></script>
       <script src="../js/scriptFile.js"></script>
       <script>
          $(".office-menu ul li a").click(function () {
             $(".office-menu ul li").removeClass("active");
             $(this).addClass("active");
-
-            var selector = $(this).attr("data-filter");
-            $(".office-content").isotope({
-               filter: selector,
-            });
-            return false;
          });
+         var mixer = mixitup(".office-content");
       </script>
       <script>
          $(document).ready(function () {
-            AOS.init({
-               durations: 5000,
-            });
+            $(".item").venobox();
          });
       </script>
    </body>
